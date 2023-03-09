@@ -1,11 +1,9 @@
-import { Footer } from "@/components/Footer";
-import { Welcome } from "@/components/Welcome";
+import { TrafficLight } from "@/components/TrafficLight";
 
 export default function Home() {
   return (
     <div className="container">
-      <Welcome />
-      <Footer />
+      <TrafficLight />
     </div>
   );
 }
